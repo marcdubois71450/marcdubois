@@ -10,7 +10,7 @@ git clone https://github.com/marcdubois71450/marcdubois.git
 ```
 Move in the right folder
 ```
-cd web_solea
+cd marcdubois
 ```
 Install the necessary packages
 ```
