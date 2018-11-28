@@ -1,12 +1,12 @@
-# Web_Solea
+# Marc Dubois WebSite
 
-The project Web_Solea, is a project of License 3 TRI (Bourget-Du-Lac). Web Server allows you to administer all network devices (router, switch, server, etc.). Many features are available or will be, such as configuration backup.
+This is my website!
 
 ### Project recovery
 
 Clone the git repository
 ```
-git clone https://github.com/marcdubois71450/web_solea.git
+git clone https://github.com/marcdubois71450/marcdubois.git
 ```
 Move in the right folder
 ```
@@ -32,4 +32,4 @@ Start the project in production mode
 ```
 npm start
 ```
-The server is ready on port 8080
+The server is ready on port 80
