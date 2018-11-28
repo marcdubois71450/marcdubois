@@ -1,7 +1,7 @@
 {
-  "name": "web_solea",
+  "name": "marcdubois",
   "version": "1.0.0",
-  "description": "Project of L3 TRI Le Bourget Du Lac",
+  "description": "Marc Dubois Website",
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",

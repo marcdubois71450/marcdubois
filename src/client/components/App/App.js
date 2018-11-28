@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import LoginPage from './../LoginPage';
 
 
 export default class App extends Component {
@@ -10,7 +9,8 @@ export default class App extends Component {
     return (
 
       <div>
-      <LoginPage />
+      <div className="title">Marc Dubois</div>
+      <div className="texte">Le site est en construction.</div>
       </div>
     );
   }

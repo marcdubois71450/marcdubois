@@ -5,5 +5,17 @@ body {
   font-family: 'Open Sans';
   font-weight: 300;
   font-style: normal;
-   user-select: none; 
+   user-select: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 50px;
+}
+
+.texte {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
 }
