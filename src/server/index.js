@@ -1,4 +1,3 @@
-// Dependencies
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
@@ -11,10 +10,9 @@ app.all(/.*/, function(req, res, next) {
   if (host.match(/^www\..*/i)) {
     next();
   } else {
-    res.redirect(301, "http://www." + host);
+    res.redirect(301, "https://www." + host);
   }
 });
-
 
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/privkey.pem', 'utf8');
 const certificate = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/cert.pem', 'utf8');
@@ -30,7 +28,6 @@ app.use(express.static('dist'));
 app.get('/api/serverinfo', (req, res) => res.send({ OsType: os.type() }));
 app.get('/api/serverport', (req, res) => res.send({ Port: port }));
 
-// Starting both http & https servers
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
