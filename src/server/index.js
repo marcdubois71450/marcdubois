@@ -1,17 +1,34 @@
+// Dependencies
+const fs = require('fs');
+const http = require('http');
+const https = require('https');
 const express = require('express');
-const os = require('os');
-const md5 = require('md5');
-
 
 const app = express();
 
-const port = "80"; // Pour du serveur en Production
+// Certificate
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/chain.pem', 'utf8');
+
+const credentials = {
+	key: privateKey,
+	cert: certificate,
+	ca: ca
+};
 
 app.use(express.static('dist'));
 app.get('/api/serverinfo', (req, res) => res.send({ OsType: os.type() }));
 app.get('/api/serverport', (req, res) => res.send({ Port: port }));
-app.get('/.well-known/acme-challenge/vXb3uzipv_0hIUk-Dh9-NHFsJ95qogPkY-3T7FETQqg', (req, res) => res.send("vXb3uzipv_0hIUk-Dh9-NHFsJ95qogPkY-3T7FETQqg.X8zgRgDtKz0BJA31Qy8IAEobIygxKFL4BSesZ4Nmchw"));
 
+// Starting both http & https servers
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
 
+httpServer.listen(80, () => {
+	console.log('HTTP Server running on port 80');
+});
 
-app.listen(port, () => console.log('Le serveur est prêt sur le port '+port+' !'));
+httpsServer.listen(443, () => {
+	console.log('HTTPS Server running on port 443');
+});
