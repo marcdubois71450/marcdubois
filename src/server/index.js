@@ -10,7 +10,7 @@ const port = "80"; // Pour du serveur en Production
 app.use(express.static('dist'));
 app.get('/api/serverinfo', (req, res) => res.send({ OsType: os.type() }));
 app.get('/api/serverport', (req, res) => res.send({ Port: port }));
-app.get('/api/c3284d0f94606de1fd2af172aba15bf3', (req, res) => res.send({ password: true }));
+app.get('/.well-known/acme-challenge/vXb3uzipv_0hIUk-Dh9-NHFsJ95qogPkY-3T7FETQqg', (req, res) => res.send("vXb3uzipv_0hIUk-Dh9-NHFsJ95qogPkY-3T7FETQqg.X8zgRgDtKz0BJA31Qy8IAEobIygxKFL4BSesZ4Nmchw"));
 
 
 
