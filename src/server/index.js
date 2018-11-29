@@ -25,8 +25,7 @@ const credentials = {
 };
 
 app.use(express.static('dist'));
-app.get('/api/serverinfo', (req, res) => res.send({ OsType: os.type() }));
-app.get('/api/serverport', (req, res) => res.send({ Port: port }));
+app.get('/api/test', (req, res) => res.send({ Api: 'It works!' }));
 
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
