@@ -6,9 +6,9 @@ const express = require('express');
 const app = express();
 
 
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/cert.pem', 'utf8');
-const ca = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/chain.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/marcdubois.fr/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/marcdubois.fr/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/marcdubois.fr/chain.pem', 'utf8');
 
 const credentials = {
 	key: privateKey,
