@@ -5,14 +5,6 @@ const express = require('express');
 
 const app = express();
 
-app.all(/.*/, function(req, res, next) {
-  var host = req.header("host");
-  if (host.match(/^www\..*/i)) {
-    next();
-  } else {
-    res.redirect(301, "https://www." + host);
-  }
-});
 
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/privkey.pem', 'utf8');
 const certificate = fs.readFileSync('/etc/letsencrypt/live/www.marcdubois.fr/cert.pem', 'utf8');
