@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Timeline from '../Timeline';
+
 
 
 export default class App extends Component {
@@ -10,10 +12,11 @@ export default class App extends Component {
       <div>
         <div className="annecy">
           <div className="title">Marc Dubois</div>
-          <div className="texte">Site en construction.</div>
+          <div className="texte">Etudiant.</div>
           <div className="info">?<div className="info2">Lac d'annecy</div>
         </div>
-        </div>
+       </div>
+       <Timeline />
       </div>
     );
   }
