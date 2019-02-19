@@ -1,0 +1,23 @@
+.modale-back-animateur{
+  width: 50vw;
+  height: 40vh;
+}
+.modale-title-animateur{
+font-weight: 700;
+font-size: 3vw;
+padding-top: 6vh;
+padding-left: 1vw;
+width: 35vw;
+}
+.modale-lieu-animateur{
+  font-size: 1.4vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+}
+.modale-plus-animateur{
+  font-size: 1.4vw;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  width: 38vw;
+
+}

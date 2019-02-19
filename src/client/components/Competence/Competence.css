@@ -1,0 +1,22 @@
+.fullcompetence{
+	width: 100%;
+	height: auto;
+	background-color: #262626;
+	margin-top: 50px;
+	color: white;
+}
+.title-competence{
+	padding-top: 60px;
+	padding-left: 10%;
+	font-size: 4vw;
+
+}
+.item-competence{
+		padding-left: 15%;
+		padding-top: 20px;
+		font-size: 2vw;
+		width: 80%;
+}
+.last-competence{
+	padding-bottom: 60px;
+}

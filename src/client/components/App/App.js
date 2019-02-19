@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Timeline from '../Timeline';
+import Competence from '../Competence';
+import Projet from '../Projet';
+
+
 
 
 
@@ -12,11 +16,14 @@ export default class App extends Component {
       <div>
         <div className="annecy">
           <div className="title">Marc Dubois</div>
-          <div className="texte">Etudiant.</div>
-          <div className="info">?<div className="info2">Lac d'annecy</div>
+          <div className="texte">Etudiant, en recherche d'alternance.</div>
+          <div className="info">?<div className="info2">Lac d'Annecy</div>
         </div>
        </div>
        <Timeline />
+       <Competence />
+       <Projet />
+
       </div>
     );
   }
