@@ -22,7 +22,7 @@ export default class Stage extends Component {
         <u>Projet :</u> Superviseur, interface de gestion des machines en réseaux. (Trello, Figma, NodeJS, Electron, Webpack, ReactJS, Redux)
         </div>
         <div className="modale-projet-stage">
-        <u>Les plus :</u> Travaille d'équipe (designer/dévellopeur)
+        <u>Les plus :</u> Travail d'équipe (designer/dévelopeur)
         </div>
       </div>
     );

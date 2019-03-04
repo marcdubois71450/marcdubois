@@ -19,7 +19,7 @@ export default class Lycee extends Component {
         <u>Lieu :</u> Moncteau-Les-Mines - 71300
         </div>
         <div className="modale-projet-lycee">
-        <u>Projet :</u> Machine à cocktail automatiser (Arduino, HTML, CSS)
+        <u>Projet :</u> Machine à cocktail automatisée (Arduino, HTML, CSS)
         </div>
       </div>
     );

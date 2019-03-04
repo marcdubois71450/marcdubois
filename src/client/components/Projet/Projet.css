@@ -1,6 +1,199 @@
-.fullprojet{
+
+.fullprojet
+{
 	width: 100%;
 	height: auto;
 	background-color: white;
 	color: black;
+}
+
+.title-projet
+{
+	padding-top: 10px;
+	padding-left: 10%;
+	font-size: 4vw;
+}
+
+.main-projet
+{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+
+
+/* -----------------------------Classique----------------------------- */
+.superviseur-bouton
+{
+	width: 25%;
+	height: 20vh;
+	margin-right: 12.5%;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.cv-bouton
+{
+	width: 25%;
+	margin-right: 12.5%;
+	height: 20vh;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.websolea-bouton
+{
+	width: 25%;
+	height: 20vh;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+/* -----------------------------More----------------------------- */
+.superviseur-bouton-more
+{
+	width: 35%;
+	height: 20vh;
+	margin-right: 12.5%;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.cv-bouton-more
+{
+	width: 35%;
+	margin-right: 12.5%;
+	height: 20vh;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.websolea-bouton-more
+{
+	width: 35%;
+	height: 20vh;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+/* -----------------------------Less----------------------------- */
+.superviseur-bouton-less
+{
+	width: 20%;
+	height: 20vh;
+	margin-right: 12.5%;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.cv-bouton-less
+{
+	width: 20%;
+	margin-right: 12.5%;
+	height: 20vh;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.websolea-bouton-less
+{
+	width: 20%;
+	height: 20vh;
+	float: left;
+	background-color: black;
+	position:relative;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.texte-projet
+{
+	color: white;
+	font-size: 2vw;
+	text-align: right;
+	position:absolute;
+	bottom:10;
+	right:10;
+}
+
+.hr-projet
+{
+	margin-top: 25vh;
+	width: 50%;
+	height: 5px;
+	background-color: black;
+	box-shadow:none;
+	border:0 none;
+	outline:0;
+	border-radius: 2.5px;
+}
+.more-projet{
+	text-align: center;
+	font-size: 2vw;
+	padding-top: 10px;
+}
+
+.title-superviseur
+{
+	font-size: 3vw;
+	margin-left: 3%;
+	margin-top: 5vh;
+}
+.description-superviseur {
+	margin-top: 3vh;
+
+}
+.technologie-superviseur {
+	margin-top: 3vh;
+}
+.youtube-superviseur{
+	text-align: center;
+	margin-top: 4vh;
 }

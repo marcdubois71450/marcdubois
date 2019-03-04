@@ -74,6 +74,8 @@ padding-right: 10px;
 border-radius: 30px;
 position: absolute;
     bottom: 0;
+		cursor: pointer;
+
 }
 
 .modal-bouton-right{
@@ -91,6 +93,8 @@ padding-right: 10px;
 border-radius: 30px;
 position: absolute;
     bottom: 0;
+		cursor: pointer;
+
 }
 
 

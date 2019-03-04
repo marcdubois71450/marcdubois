@@ -19,7 +19,7 @@ export default class USMB extends Component {
         <u>Lieu :</u> Le Bourget Du Lac - 73370
         </div>
         <div className="modale-projet-usmb">
-        <u>Projet :</u> Interfaces Web, d'administration de serveurs/équipements réseaux (NodeJS, ReactJS)
+        <u>Projet :</u> Interfaces Web d'administration de serveurs/équipements réseaux (NodeJS, ReactJS)
         </div>
       </div>
     );

@@ -1,5 +1,6 @@
 
 @import '../../../../node_modules/npm-font-open-sans/open-sans.css';
+
 body
 {
 	margin: 0;
@@ -54,6 +55,7 @@ body
 	text-align: center;
 	font-size: 18px;
 	font-weight: 800;
+	cursor: help;
 }
 
 .info2
