@@ -15,7 +15,9 @@ export default class Competence extends Component {
         <div className="item-competence"><u>Script :</u> PowerShell, bash.</div>
         <div className="item-competence"><u>Système d'exploitation :</u> Windows : XP, 7, 8, 10, Serveur 2008, 2012 R2, 2016.<br/>Linux : Debian, Unbuntu, Mandriva, Cent-OS.<br/>macOS : Mojave, High Sierra, Sierra, El Capitan, Yosemite, Maverick.</div>
         <div className="item-competence"><u>Logiciel :</u> Photoshop, Premiere Pro, Wireshark, Packet Tracer, Virtual Box, Cordova, Pack Office, Inventor, Arduino.</div>
-        <div className="item-competence last-competence"><u>Anglais :</u> Intermédiaire</div>
+        <div className="item-competence"><u>Anglais :</u> Intermédiaire</div>
+        <div className="item-competence last-competence">Permis B, Véhiculer</div>
+
       </div>
     );
   }

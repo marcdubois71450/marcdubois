@@ -3,6 +3,7 @@ import './App.css';
 import Timeline from '../Timeline';
 import Competence from '../Competence';
 import Projet from '../Projet';
+import Interet from '../Interet';
 
 
 
@@ -23,7 +24,7 @@ export default class App extends Component {
        <Timeline />
        <Competence />
        <Projet />
-
+       <Interet />
       </div>
     );
   }

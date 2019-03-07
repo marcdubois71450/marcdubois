@@ -2,7 +2,6 @@
 .fullprojet
 {
 	width: 100%;
-	height: auto;
 	background-color: white;
 	color: black;
 }
@@ -30,10 +29,10 @@
 	height: 20vh;
 	margin-right: 12.5%;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -43,10 +42,10 @@
 	margin-right: 12.5%;
 	height: 20vh;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -55,10 +54,10 @@
 	width: 25%;
 	height: 20vh;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -69,10 +68,10 @@
 	height: 20vh;
 	margin-right: 12.5%;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -82,10 +81,10 @@
 	margin-right: 12.5%;
 	height: 20vh;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -94,10 +93,10 @@
 	width: 35%;
 	height: 20vh;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -108,10 +107,10 @@
 	height: 20vh;
 	margin-right: 12.5%;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -121,10 +120,10 @@
 	margin-right: 12.5%;
 	height: 20vh;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -133,10 +132,10 @@
 	width: 20%;
 	height: 20vh;
 	float: left;
-	background-color: black;
+	background-color: #262626;
 	position:relative;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.3s;
 
 }
 
@@ -168,7 +167,7 @@
 	margin-top: 25vh;
 	width: 50%;
 	height: 5px;
-	background-color: black;
+	background-color: #262626;
 	box-shadow:none;
 	border:0 none;
 	outline:0;
@@ -188,12 +187,58 @@
 }
 .description-superviseur {
 	margin-top: 3vh;
-
+	font-size: 1.2vw;
 }
 .technologie-superviseur {
 	margin-top: 3vh;
+	font-size: 1.2vw;
+
 }
 .youtube-superviseur{
 	text-align: center;
 	margin-top: 4vh;
+}
+.title-cv
+{
+	font-size: 3vw;
+	margin-left: 3%;
+	margin-top: 5vh;
+}
+.description-cv {
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+.technologie-cv {
+	margin-top: 3vh;
+	font-size: 1.2vw;
+
+}
+.demo-cv{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+.git-cv{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+
+
+.title-websolea
+{
+	font-size: 3vw;
+	margin-left: 3%;
+	margin-top: 5vh;
+}
+.description-websolea {
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+.technologie-websolea {
+	margin-top: 3vh;
+	font-size: 1.2vw;
+
+}
+.git-websolea{
+	margin-top: 3vh;
+	font-size: 1.2vw;
 }
