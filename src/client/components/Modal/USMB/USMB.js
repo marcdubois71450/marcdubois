@@ -13,7 +13,7 @@ export default class USMB extends Component {
         Université Savoie Mont-Blanc
         </div>
         <div className="modale-diplome-usmb">
-        <u>Diplôme :</u> License 3 TRI Télécommunications et Réseaux Informatiques
+        <u>Diplôme :</u> Licence 3 TRI Télécommunications et Réseaux Informatiques
         </div>
         <div className="modale-lieu-usmb">
         <u>Lieu :</u> Le Bourget Du Lac - 73370

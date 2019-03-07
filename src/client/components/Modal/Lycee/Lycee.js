@@ -16,10 +16,10 @@ export default class Lycee extends Component {
         <u>Diplôme :</u> Bac SSI, Bac Scientifique Science de l'Ingenieur
         </div>
         <div className="modale-lieu-lycee">
-        <u>Lieu :</u> Moncteau-Les-Mines - 71300
+        <u>Lieu :</u> Montceau-Les-Mines - 71300
         </div>
         <div className="modale-projet-lycee">
-        <u>Projet :</u> Machine à cocktail automatisée (Arduino, HTML, CSS)
+        <u>Projet :</u> Machine à cocktails automatisée (Arduino, HTML, CSS)
         </div>
       </div>
     );

@@ -199,7 +199,8 @@ let displayProjetDiv;
       displayProjetDiv = (
         <div>
           <div className="title-superviseur">Superviseur</div>
-          <div className="description-superviseur">Superviseur est une application multiplateforme macOS et Windows, réaliser durant mon stage de DUT, au sain de l'entreprise Intactile DESIGN. Le code n'est pas public. Cette application permet d'analyser le réseau de l'entreprise, pour détecter des potentiels intrus ainsi que récupérer des informations sur les différentes machines de ce réseau.</div>
+          <div className="description-superviseur">Superviseur est une application multiplateforme macOS et Windows, réalisée durant mon stage de DUT, au sein de l'entreprise Intactile DESIGN.
+          <br/>Le code est privé. Cette application permet d'analyser le réseau de l'entreprise, pour détecter des potentiels intrus ainsi que récupérer des informations sur les différentes machines de ce réseau.</div>
           <div className="technologie-superviseur">J'ai réalisé cette application avec Trello, Figma, NodeJS, Electron, Webpack, ReactJS, Redux, SNMP, Etc. En collaboration avec un designer.</div>
           <div className="youtube-superviseur">
             <YouTube videoId="SnFkgHDW1D0" opts={opts} onReady={this._onReady}/>
@@ -211,9 +212,9 @@ let displayProjetDiv;
       displayProjetDiv = (
         <div>
           <div className="title-cv">Curriculum Vitæ</div>
-          <div className="description-cv">Mon Curriculum Vitæ est un projet personnel, que j'ai réalisé dans le but de trouver une entreprise, en appliquant mes connaissances.</div>
-          <div className="technologie-cv">J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, Let's Encrypt, Linux, DNS Infomaniak, Etc.</div>
-          <div className="demo-cv">Vous êtes actuellement en train de visualiser ce projet.</div>
+          <div className="description-cv">Mon Curriculum Vitæ est un projet personnel, que j'ai réalisé dans le but de trouver une entreprise, en appliquant mes connaissances.
+          <br/>J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, Let's Encrypt, Linux, DNS Infomaniak, Etc.
+          <br/>Vous êtes actuellement en train de visualiser ce projet.</div>
           <div className="git-cv">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/marcdubois" target="_blank">https://github.com/marcdubois71450/marcdubois</a></div>
           <br/><br/><br/><br/>
         </div>
@@ -222,8 +223,8 @@ let displayProjetDiv;
       displayProjetDiv = (
         <div>
           <div className="title-websolea">WebSolea</div>
-          <div className="description-websolea">WebSolea est une application Web, réalisée au cours de ma Licence 3, Télécommunications et réseaux informatiques au sein de l'Université Savoie Mont Blanc. Cette application permet d'administrer les différents équipements réseaux et serveurs d'une entreprise.</div>
-          <div className="technologie-websolea">J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, SSH, Etc.</div>
+          <div className="description-websolea">WebSolea est une application Web, réalisée au cours de ma Licence 3, Télécommunications et réseaux informatiques au sein de l'Université Savoie Mont Blanc. Cette application permet d'administrer les différents équipements réseaux et serveurs d'une entreprise.
+          <br/>J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, SSH, Etc.</div>
           <div className="git-websolea">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/web_solea" target="_blank">https://github.com/marcdubois71450/web_solea</a></div>
           <br/><br/><br/><br/>
         </div>

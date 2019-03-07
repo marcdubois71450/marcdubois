@@ -83,7 +83,7 @@ const { open, modale} = this.state;
           <div className="date3">Septembre 2018</div>
           <div className="timeline-item3">
             <p className="in-timeline-item">USMB</p>
-            <p className="in-timeline-item2">License 3 TRI Télécommunications et réseaux informatiques</p>
+            <p className="in-timeline-item2">Licence 3 TRI Télécommunications et réseaux informatiques</p>
             <button className="modal-bouton-left" onClick={this.onOpenModalUSMB}>+</button>
 
           </div>

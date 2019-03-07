@@ -25,7 +25,8 @@ export default class IUT extends Component {
         <u>Projet :</u> Site de E-Commerce (PHP, HTML, CSS, SQL)
         </div>
         <div className="modale-stage-iut">
-        <u>Stage :</u> Trois mois, dévelopement (Trello, Figma, NodeJS, Electron, Webpack, ReactJS, Redux) (Projet : Superviseur)
+        <u>Stage :</u> Trois mois, développement (Trello, Figma, NodeJS, Electron, Webpack, ReactJS, Redux)
+        <br/>(Projet : Superviseur)
         </div>
       </div>
     );
