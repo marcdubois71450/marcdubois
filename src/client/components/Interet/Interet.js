@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './Interet.css';
 
-
 export default class Interet extends Component {
-
-
   render() {
     return (
       <div className="fullinteret">

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './Competence.css';
 
-
 export default class Competence extends Component {
-
-
   render() {
     return (
       <div className="fullcompetence">
@@ -17,7 +14,6 @@ export default class Competence extends Component {
         <div className="item-competence"><u>Logiciels :</u> Photoshop, Premiere Pro, Wireshark, Packet Tracer, Virtual Box, Cordova, Pack Office, Inventor, Arduino.</div>
         <div className="item-competence"><u>Anglais :</u> Intermédiaire</div>
         <div className="item-competence last-competence">Permis B, Véhiculé</div>
-
       </div>
     );
   }

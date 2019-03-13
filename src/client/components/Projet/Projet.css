@@ -1,4 +1,3 @@
-
 .fullprojet
 {
 	width: 100%;
@@ -21,7 +20,6 @@
 	margin-bottom: 30px;
 }
 
-
 /* -----------------------------Classique----------------------------- */
 .superviseur-bouton
 {
@@ -33,7 +31,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 .cv-bouton
@@ -46,7 +43,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 .websolea-bouton
@@ -58,7 +54,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 /* -----------------------------More----------------------------- */
@@ -72,7 +67,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 .cv-bouton-more
@@ -85,7 +79,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 .websolea-bouton-more
@@ -97,7 +90,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 /* -----------------------------Less----------------------------- */
@@ -111,7 +103,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 .cv-bouton-less
@@ -124,7 +115,6 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
 
 .websolea-bouton-less
@@ -136,21 +126,7 @@
 	position:relative;
 	cursor: pointer;
 	transition: all 0.3s;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .texte-projet
 {
@@ -173,7 +149,9 @@
 	outline:0;
 	border-radius: 2.5px;
 }
-.more-projet{
+
+.more-projet
+{
 	text-align: center;
 	font-size: 2vw;
 	padding-top: 10px;
@@ -185,43 +163,55 @@
 	margin-left: 3%;
 	margin-top: 5vh;
 }
-.description-superviseur {
-	margin-top: 3vh;
-	font-size: 1.2vw;
-}
-.technologie-superviseur {
-	margin-top: 3vh;
-	font-size: 1.2vw;
 
+.description-superviseur
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
 }
-.youtube-superviseur{
+
+.technologie-superviseur
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+
+.youtube-superviseur
+{
 	text-align: center;
 	margin-top: 4vh;
 }
+
 .title-cv
 {
 	font-size: 3vw;
 	margin-left: 3%;
 	margin-top: 5vh;
 }
-.description-cv {
-	margin-top: 3vh;
-	font-size: 1.2vw;
-}
-.technologie-cv {
-	margin-top: 3vh;
-	font-size: 1.2vw;
 
-}
-.demo-cv{
-	margin-top: 3vh;
-	font-size: 1.2vw;
-}
-.git-cv{
+.description-cv
+{
 	margin-top: 3vh;
 	font-size: 1.2vw;
 }
 
+.technologie-cv
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+
+.demo-cv
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+
+.git-cv
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
 
 .title-websolea
 {
@@ -229,16 +219,21 @@
 	margin-left: 3%;
 	margin-top: 5vh;
 }
-.description-websolea {
-	margin-top: 3vh;
-	font-size: 1.2vw;
-}
-.technologie-websolea {
-	margin-top: 3vh;
-	font-size: 1.2vw;
 
+.description-websolea
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
 }
-.git-websolea{
+
+.technologie-websolea
+{
+	margin-top: 3vh;
+	font-size: 1.2vw;
+}
+
+.git-websolea
+{
 	margin-top: 3vh;
 	font-size: 1.2vw;
 }

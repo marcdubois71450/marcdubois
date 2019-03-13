@@ -63,138 +63,133 @@ export default class Projet extends Component {
     let classNameSuperviseur;
     let classNameCV;
     let classNameWebSolea;
-if (this.state.displayProjet == "none") {
+    if (this.state.displayProjet == "none") {
+      if (this.state.isOver == "none") {
+            classNameSuperviseur = 'superviseur-bouton';
+            classNameCV = 'cv-bouton';
+            classNameWebSolea = 'websolea-bouton';
+      }
+      else if (this.state.isOver == "superviseur"){
+            classNameSuperviseur = 'superviseur-bouton-more';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "cv") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-more';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "websolea") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-more';
+      }
+      else {
+            classNameSuperviseur = 'superviseur-bouton';
+            classNameCV = 'cv-bouton';
+            classNameWebSolea = 'websolea-bouton';
+      }
 
-  if (this.state.isOver == "none") {
-    classNameSuperviseur = 'superviseur-bouton';
-    classNameCV = 'cv-bouton';
-    classNameWebSolea = 'websolea-bouton';
-  }
-  else if (this.state.isOver == "superviseur"){
-    classNameSuperviseur = 'superviseur-bouton-more';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "cv") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-more';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "websolea") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-more';
-  }
-  else {
-    classNameSuperviseur = 'superviseur-bouton';
-    classNameCV = 'cv-bouton';
-    classNameWebSolea = 'websolea-bouton';
-  }
-
-}
-else if (this.state.displayProjet == "superviseur") {
-
-  if (this.state.isOver == "none") {
-    classNameSuperviseur = 'superviseur-bouton-more';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "superviseur"){
-    classNameSuperviseur = 'superviseur-bouton-more';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "cv") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-more';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "websolea") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-more';
-  }
-  else {
-    classNameSuperviseur = 'superviseur-bouton-more';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-
-} else if (this.state.displayProjet == "websolea") {
-
-  if (this.state.isOver == "none") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-more';
-  }
-  else if (this.state.isOver == "superviseur"){
-    classNameSuperviseur = 'superviseur-bouton-more';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "cv") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-more';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "websolea") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-more';
-  }
-  else {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-more';
-  }
-
-} else if (this.state.displayProjet == "cv") {
-
-  if (this.state.isOver == "none") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-more';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "superviseur"){
-    classNameSuperviseur = 'superviseur-bouton-more';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "cv") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-more';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-  else if (this.state.isOver == "websolea") {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-less';
-    classNameWebSolea = 'websolea-bouton-more';
-  }
-  else {
-    classNameSuperviseur = 'superviseur-bouton-less';
-    classNameCV = 'cv-bouton-more';
-    classNameWebSolea = 'websolea-bouton-less';
-  }
-
-} else {
-  classNameSuperviseur = 'superviseur-bouton';
-  classNameCV = 'cv-bouton';
-  classNameWebSolea = 'websolea-bouton';
-}
-
+    }
+    else if (this.state.displayProjet == "superviseur") {
+      if (this.state.isOver == "none") {
+            classNameSuperviseur = 'superviseur-bouton-more';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "superviseur"){
+            classNameSuperviseur = 'superviseur-bouton-more';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "cv") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-more';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "websolea") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-more';
+      }
+      else {
+            classNameSuperviseur = 'superviseur-bouton-more';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+    }
+    else if (this.state.displayProjet == "websolea") {
+      if (this.state.isOver == "none") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-more';
+      }
+      else if (this.state.isOver == "superviseur"){
+            classNameSuperviseur = 'superviseur-bouton-more';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "cv") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-more';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "websolea") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-more';
+      }
+      else {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-more';
+      }
+    }
+   else if (this.state.displayProjet == "cv") {
+      if (this.state.isOver == "none") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-more';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "superviseur"){
+            classNameSuperviseur = 'superviseur-bouton-more';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "cv") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-more';
+            classNameWebSolea = 'websolea-bouton-less';
+      }
+      else if (this.state.isOver == "websolea") {
+            classNameSuperviseur = 'superviseur-bouton-less';
+            classNameCV = 'cv-bouton-less';
+            classNameWebSolea = 'websolea-bouton-more';
+      }
+      else {
+          classNameSuperviseur = 'superviseur-bouton-less';
+          classNameCV = 'cv-bouton-more';
+          classNameWebSolea = 'websolea-bouton-less';
+      }
+    }
+    else {
+      classNameSuperviseur = 'superviseur-bouton';
+      classNameCV = 'cv-bouton';
+      classNameWebSolea = 'websolea-bouton';
+    }
 
 const opts = {
   width: '757',
   height: '473',
-  playerVars: { // https://developers.google.com/youtube/player_parameters
+  playerVars: {
     autoplay: true,
     loop: true,
     showInfo: false,
     modestBranding: true
   }
 };
-
 let displayProjetDiv;
+
     if (this.state.displayProjet == "superviseur") {
       displayProjetDiv = (
         <div>
@@ -234,7 +229,6 @@ let displayProjetDiv;
         <div className="more-projet">Sélectionner un projet ci-dessus<br/><br/></div>
       )
     }
-
 
     return (
       <div className="fullprojet">
