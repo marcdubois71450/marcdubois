@@ -1,6 +1,7 @@
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
+const path = require('path');
 const express = require('express');
 const app = express();
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/marcdubois.fr/privkey.pem', 'utf8');
@@ -13,8 +14,10 @@ const credentials = {
 };
 
 
+var mypdf = __dirname + '/../../MarcDubois_CV.pdf';
+app.use('/pdf', express.static(mypdf));
+
 app.use(express.static('dist'));
-app.use(express.static('MarcDuboisCV.pdf'));
 
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
