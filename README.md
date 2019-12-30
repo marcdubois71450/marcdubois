@@ -1,6 +1,6 @@
 # Marc Dubois WebSite
 
-This is my website! https://www.marcdubois.fr/
+This is my website! https://marcdubois.fr/
 
 ### Project recovery
 
