@@ -1,0 +1,34 @@
+.modale-back-lycee
+{
+	width: 50vw;
+	height: 50vh;
+}
+
+.modale-title-lycee
+{
+	font-weight: 700;
+	font-size: 3vw;
+	padding-top: 9vh;
+	padding-left: 1vw;
+}
+
+.modale-diplome-lycee
+{
+	font-size: 1.4vw;
+	margin-top: 4vh;
+	margin-left: 2vw;
+}
+
+.modale-lieu-lycee
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+}
+
+.modale-projet-lycee
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+}

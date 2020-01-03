@@ -1,0 +1,37 @@
+.modale-back-usmb
+{
+	width: 50vw;
+	height: 50vh;
+}
+
+.modale-title-usmb
+{
+	font-weight: 700;
+	font-size: 3vw;
+	padding-top: 2vh;
+	padding-left: 1vw;
+	width: 35vw;
+}
+
+.modale-diplome-usmb
+{
+	font-size: 1.4vw;
+	margin-top: 4vh;
+	margin-left: 2vw;
+	width: 38vw;
+}
+
+.modale-lieu-usmb
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+}
+
+.modale-projet-usmb
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+	width: 38vw;
+}

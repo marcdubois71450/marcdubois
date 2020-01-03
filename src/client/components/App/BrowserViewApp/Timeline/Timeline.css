@@ -1,0 +1,331 @@
+:root {
+  --main-timeline: 1075px;
+}
+
+.fulltimeline {
+  height: 1175px;
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.etude {
+  height: var(--main-timeline);
+  width: calc(50% - 20px);
+  float: left;
+  display: inline-block;
+  display: table-cell;
+}
+
+.timeline {
+  background-color: black;
+  height: var(--main-timeline);
+  width: 40px;
+  margin-top: 100px;
+  float: left;
+  display: inline-block;
+  display: table-cell;
+  border-radius: 20px;
+}
+
+.experience {
+  height: var(--main-timeline);
+  width: calc(50% - 25px);
+  float: left;
+  display: inline-block;
+  display: table-cell;
+}
+
+.title-timeline {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.date {
+  margin-top: 60px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+  width: 100%;
+  font-size: 17px;
+  text-align: right;
+}
+
+.modal-bouton-left {
+  left: -50px;
+  background-color: #353535;
+  color: white;
+  height: auto;
+  font-size: 30px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.modal-bouton-right {
+  right: -50px;
+  background-color: #353535;
+  color: white;
+  height: auto;
+  font-size: 30px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.timeline-item {
+  position: relative;
+  width: 100%;
+  float: right;
+  height: 300px;
+  width: 60%;
+  background-color: #353535;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.timeline-item .in-timeline-item {
+  padding-top: 90px;
+  padding-left: 25px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.timeline-item .in-timeline-item2 {
+  padding-top: 10px;
+  padding-left: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 16px;
+}
+
+.date2 {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+  width: 100%;
+  font-size: 17px;
+  text-align: right;
+}
+
+.date3 {
+  margin-top: 40px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+  width: 100%;
+  font-size: 17px;
+  text-align: right;
+}
+
+.timeline-item2 {
+  position: relative;
+  width: 100%;
+  float: right;
+  height: 220px;
+  width: 60%;
+  background-color: #353535;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.timeline-item2 .in-timeline-item {
+  padding-top: 55px;
+  padding-left: 25px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.timeline-item2 .in-timeline-item2 {
+  padding-top: 10px;
+  padding-left: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 16px;
+}
+
+.date4 {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+  width: 100%;
+  font-size: 17px;
+  text-align: right;
+}
+
+.timeline-item3 {
+  position: relative;
+  width: 100%;
+  float: right;
+  height: 130px;
+  width: 60%;
+  background-color: #353535;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.timeline-item3 .in-timeline-item {
+  padding-top: 15px;
+  padding-left: 25px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.timeline-item3 .in-timeline-item2 {
+  padding-top: 10px;
+  padding-left: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 16px;
+}
+
+.date-right {
+  margin-top: 200px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  text-align: left;
+}
+
+.timeline-item-right {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 50px;
+  width: 60%;
+  background-color: #353535;
+  -webkit-border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.timeline-item-right .in-timeline-item-right {
+  padding-top: 10px;
+  padding-left: 25px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.date2-right {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  text-align: left;
+}
+
+.date3-right {
+  margin-top: 75px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  text-align: left;
+}
+
+.date4-right {
+  margin-top: 109px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  text-align: left;
+}
+
+.date5-right {
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  text-align: left;
+}
+
+.timeline-item2-right {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 75px;
+  width: 60%;
+  background-color: #353535;
+  -webkit-border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.timeline-item2-right .in-timeline-item-right {
+  padding-top: 10px;
+  padding-left: 25px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #F0F0F0;
+  font-size: 20px;
+  font-weight: bold;
+}

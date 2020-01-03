@@ -1,0 +1,42 @@
+.modale-back-iut
+{
+	width: 50vw;
+	height: 55vh;
+}
+
+.modale-title-iut
+{
+	font-weight: 700;
+	font-size: 3vw;
+	padding-top: 4.5vh;
+	padding-left: 1vw;
+}
+
+.modale-diplome-iut
+{
+	font-size: 1.4vw;
+	margin-top: 4vh;
+	margin-left: 2vw;
+}
+
+.modale-lieu-iut
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+}
+
+.modale-projet-iut
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+}
+
+.modale-stage-iut
+{
+	font-size: 1.4vw;
+	margin-top: 2vh;
+	margin-left: 2vw;
+	width: 35vw;
+}
