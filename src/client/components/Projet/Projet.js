@@ -219,7 +219,7 @@ let displayProjetDiv;
         <div>
           <div className="title-websolea">WebSolea</div>
           <div className="description-websolea">WebSolea est une application Web, réalisée au cours de ma Licence 3, Télécommunications et réseaux informatiques au sein de l'Université Savoie Mont Blanc. Cette application permet d'administrer les différents équipements réseaux et serveurs d'une entreprise.
-          <br/>J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, SSH, Etc.</div>
+          <br/>J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, SSH, Socket.IO, Etc.</div>
           <div className="git-websolea">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/web_solea" target="_blank">https://github.com/marcdubois71450/web_solea</a></div>
           <br/><br/><br/><br/>
         </div>

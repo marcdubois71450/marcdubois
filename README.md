@@ -28,8 +28,7 @@ The developement server is ready on port 3000
 
 
 ### Production
-Start the project in production mode
+Build project to "dist" folder
 ```
 npm start
 ```
-The server is ready on port 80
