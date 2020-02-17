@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const outputDirectory = 'dist';
 
 module.exports = {
@@ -37,7 +37,6 @@ module.exports = {
     ]
   },
   devServer: {
-    public: '192.168.1.75:3000',
     port: 3000,
     open: true,
     proxy: {

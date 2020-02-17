@@ -1,70 +1,64 @@
-@import '../../../../../node_modules/npm-font-open-sans/open-sans.css';
 
-body {
-  margin: 0;
-  font-family: 'Open Sans';
-  font-weight: 300;
-  font-style: normal;
-  user-select: none;
-}
 
-.title {
-  text-align: center;
-  font-size: 8vw;
-  padding-top: 24vh;
-  color: white;
-}
-
-.texte {
-  text-align: center;
-  font-size: 2.5vw;
-  margin-top: 50px;
-  margin-left: 20%;
-  width: 60%;
-  color: white;
-}
-
-.annecy {
-  width: 100%;
-  height: 100%;
-  background-size: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/annecy.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: 0px 10px 11px -4px rgba(0, 0, 0, 0.61);
-  -moz-box-shadow: 0px 10px 11px -4px rgba(0, 0, 0, 0.61);
-  box-shadow: 0px 10px 11px -4px rgba(0, 0, 0, 0.61);
-  position: relative;
-  z-index: 1;
-}
-
-.info {
+.menu-hover{
   position: absolute;
-  right: 50px;
-  bottom: 30px;
-  color: black;
-  background-color: white;
-  border-radius: 50%;
-  width: 26px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 800;
-  cursor: help;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  height: 300px;
+  width: 400px;
+  background-color: red;
+  border-bottom-left-radius: 350px 250px;
 }
-
-.info2 {
+.menu-top-right{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   position: absolute;
-  right: 50px;
-  bottom: 0px;
-  color: black;
-  display: none;
-  background-color: white;
-  width: 150px;
-  font-weight: 600;
-  font-size: 18px;
-  border-radius: 32px;
-}
-
-.info:hover .info2 {
+  top: 30;
+  right: 30;
+  width: 180;
+  z-index: 9999;
   display: block;
+  background-color: white;
+}
+
+.setting-icon{
+  z-index: 99990;
+  height: 40px;
+  position: absolute;
+  top: 5;
+  right: 5;
+  -webkit-transform: rotate(0deg);
+  transition: all 0.4s  ease-in-out;
+-webkit-transition: all 0.4s  ease-in-out;
+-moz-transition: all 0.4s  ease-in-out;
+-o-transition: all 0.4s  ease-in-out;
+}
+
+.menu-hover:hover .setting-icon{
+  -webkit-transform: rotate(-180deg);
+  right: 135;
+  transition: all 0.4s  ease-in-out;
+-webkit-transition: all 0.4s  ease-in-out;
+-moz-transition: all 0.4s  ease-in-out;
+-o-transition: all 0.4s  ease-in-out;
+}
+
+@-webkit-keyframes rotating {
+    from{
+      -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(-180deg);
+    }
+}
+
+
+@-webkit-keyframes rotating2 {
+    from{
+      -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(180deg);
+    }
 }
