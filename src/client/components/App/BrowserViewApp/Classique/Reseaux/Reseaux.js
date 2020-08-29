@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import YouTube from 'react-youtube';
 import Instagram from './img/instagram.svg';
 import Linkedin from './img/linkedin.svg';
 import Github from './img/github.svg';
