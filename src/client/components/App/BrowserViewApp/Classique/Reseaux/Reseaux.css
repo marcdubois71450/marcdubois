@@ -18,52 +18,42 @@
 	float: left;
 	margin-left: 15%;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	margin-top: 20px;
 }
-
 .instagram
 {
-	background: url("./img/instagram.png");
+	margin-left: 15%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	float: left;
 	width: 10%;
-	height: 15%;
 	margin-right: 10%;
 }
 
 .linkedin
 {
-	background: url("./img/linkedin.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	float: left;
-	width: 20%;
-	height: 15%;
+	width: 10%;
 	margin-right: 10%;
-	margin-top: 17px;
 }
 
 .github
 {
-	background: url("./img/github.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	float: left;
-	width: 20%;
-	height: 15%;
+	width: 10%;
 	margin-right: 10%;
-	margin-top: 8px;
 }
 
 .youtube
 {
-	background: url("./img/youtube.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	float: left;
-	width: 20%;
-	height: 15%;
-	margin-top: 20px;
+	width: 10%;
+	margin-right: 10%;
 }
