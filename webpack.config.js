@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const outputDirectory = 'dist';
 
@@ -38,12 +39,10 @@ module.exports = {
   },
   devServer: {
     port: 3000,
-    open: true,
-    proxy: {
-      '/api': 'http://localhost:8080'
-    }
+    open: true
   },
   plugins: [
+    new BundleAnalyzerPlugin(),
     new CleanWebpackPlugin({
         cleanAfterEveryBuildPatterns: [outputDirectory]
     }),

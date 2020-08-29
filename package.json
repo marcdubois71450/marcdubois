@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-react-css-modules": "^5.2.6",
-    "npm-font-open-sans": "^1.1.0",
     "react": "^16.13.1",
     "react-device-detect": "^1.13.1",
     "react-dom": "^16.13.1",
@@ -44,6 +43,7 @@
     "style-loader": "^1.2.1",
     "url-loader": "^3.0.0",
     "webpack": "^4.44.1",
+    "webpack-bundle-analyzer": "^3.8.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
