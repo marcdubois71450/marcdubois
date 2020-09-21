@@ -210,7 +210,7 @@ let displayProjetDiv;
           <div styleName="description-cv">Mon Curriculum Vitæ est un projet personnel, que j'ai réalisé dans le but de trouver une entreprise, en appliquant mes connaissances.
           <br/>J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, Let's Encrypt, Linux, DNS Infomaniak, Etc.
           <br/>Vous êtes actuellement en train de visualiser ce projet.</div>
-          <div styleName="git-cv">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/marcdubois" target="_blank">https://github.com/marcdubois71450/marcdubois</a></div>
+          <div styleName="git-cv">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/marcdubois" target="_blank" rel="noopener">https://github.com/marcdubois71450/marcdubois</a></div>
           <br/><br/><br/><br/>
         </div>
       )
@@ -220,7 +220,7 @@ let displayProjetDiv;
           <div styleName="title-websolea">WebSolea</div>
           <div styleName="description-websolea">WebSolea est une application Web, réalisée au cours de ma Licence 3, Télécommunications et réseaux informatiques au sein de l'Université Savoie Mont Blanc. Cette application permet d'administrer les différents équipements réseaux et serveurs d'une entreprise.
           <br/>J'ai réalisé ce projet avec NodeJS, Webpack, ReactJS, SSH, Socket.IO, Etc.</div>
-          <div styleName="git-websolea">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/web_solea" target="_blank">https://github.com/marcdubois71450/web_solea</a></div>
+          <div styleName="git-websolea">Le code de ce projet est disponible sur mon GitHub : <a href="https://github.com/marcdubois71450/web_solea" target="_blank" rel="noopener">https://github.com/marcdubois71450/web_solea</a></div>
           <br/><br/><br/><br/>
         </div>
       )
