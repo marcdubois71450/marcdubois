@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import BrowserViewApp from './BrowserViewApp';
-import MobileViewApp from './MobileViewApp';
+import React, { Component, Suspense } from 'react';
+
+const BrowserViewApp = React.lazy(() => import('./BrowserViewApp'));
+const MobileViewApp = React.lazy(() => import('./MobileViewApp'));
+
 import {BrowserView,MobileView} from "react-device-detect";
 
 export default class App extends Component {
@@ -8,10 +10,14 @@ export default class App extends Component {
     return (
       <div>
       <BrowserView>
-          <BrowserViewApp />
+          <Suspense fallback={<div>Chargement...</div>}>
+              <BrowserViewApp />
+          </Suspense>
       </BrowserView>
       <MobileView>
-          <MobileViewApp />
+          <Suspense fallback={<div>Chargement...</div>}>
+              <MobileViewApp />
+          </Suspense>
       </MobileView>
       </div>
     );
